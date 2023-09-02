@@ -1,0 +1,2615 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  padding: 0;
+}
+
+/* the navigation bar background color that contains the landing page of each of the services*/
+
+.menu_bar {
+  background-color: #020326;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content:center;
+  height: 70px;
+  margin: auto;
+}
+
+/* styling the ul list of the drop down menu*/
+
+.menu_bar ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 4rem;
+  /* margin-left: 320px; */
+}
+
+.menu_bar ul li {
+  position: relative;
+}
+
+.menu_bar ul li a {
+  color: white;
+  /* padding: 5px; */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+
+  transition: all 0.3s;
+}
+
+.menu_bar ul li a:hover {
+  color: #020326;
+  background-color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/* the drop down menu applies just to the about us and the services*/
+
+.dropdown_menu {
+  display: none;
+}
+
+/* the inner drop down menu of the diffrent services that are displayed when the services are hoverd over*/
+
+.menu_bar ul li:hover .dropdown_menu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #020326;
+}
+
+/* same as the one above styling the ul of the inner drop down menu list*/
+
+.menu_bar ul li:hover .dropdown_menu ul {
+  display: block;
+  margin: 10px;
+}
+
+.Sign-Up{
+  
+  color: rgb(34, 29, 29);
+  font-size: 23px;
+  padding: 5px;
+  color: #f7f7f8;
+ 
+}
+
+.RECOVER-BTN{
+  width: 130px;
+  border-radius: 10px;
+  height: 40px;
+   border: 3px solid white;
+  color: #030649;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 100px;
+}
+
+.menu_bar ul li:hover .dropdown_menu ul li {
+  width: 205px;
+  padding: 9px;
+}
+
+/* the arrow that shows that the drop down menu has another space down. pionts left and down*/
+
+.fas {
+  float: right;
+  margin-left: 10px;
+  /* padding-top: ; */
+}
+
+.dropdown_menu2 {
+  display: none;
+}
+
+.menu_bar ul li:hover .dropdown_menu2 {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #020326;
+}
+
+.menu_bar ul li:hover .dropdown_menu2 ul {
+  display: block;
+  margin: 10px;
+}
+
+.menu_bar ul li:hover .dropdown_menu2 ul li {
+  width: 150px;
+  padding: 8px;
+}
+
+.dropdown_menu-1 {
+  display: none;
+}
+
+.dropdown_menu ul li:hover .dropdown_menu-1 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 150px;
+  background-color: #020326;
+}
+
+/* the innitial landing page of the index. html file*/
+.the-introduction {
+  background-image: url(landing\ page\ image\ of\ business\ consulting.jpg);
+  background-size: cover;
+  height: 600px;
+  padding-top: 100px;
+  padding-left: 40px;
+}
+
+--
+
+/* text displayed on the landing page form of the captivating word*/
+
+.the-welcome-text-landing-page {
+  padding-left: 90px;
+  font-size: 30px;
+  color: white;
+  line-height: 50px;
+  padding-top: 200px;
+  
+  
+}
+
+
+
+.Welcome {
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.grace {
+  color: #03074e;
+  font-weight: bold;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.business {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.the-captivating-word {
+  color: white;
+  font-size: 35px;
+  font-weight: 800;
+  text-decoration: none;
+  padding-top: 90px;
+  margin-left: 20px;
+  /* background-color: rgb(189, 188, 188);
+  width: 70%;
+  height: 200px;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  opacity: .9; */
+}
+.transformation {
+  color: white;
+}
+
+.grace2 {
+  color: #03074e;
+  font-weight: 800;
+}
+
+/* the call to action tag that displaced the join us and the contact us site.*/
+
+.call-to-action-tag {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.logo{
+    margin-top: 10px;
+}
+
+.jion-us {
+  margin-left: 45px;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #010325;
+  border: 1px solid #ffffff;
+  width: 160px;
+  text-align: center;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 10px;
+}
+
+.contact-us {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  margin-right: 800px;
+  background-color: #010325;
+  border: 1px solid #ffffff;
+  width: 200px;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 6px;
+  padding-bottom: 7px;
+  border-radius: 10px;
+}
+
+.jion-us:hover {
+  transition-duration: 0.1s;
+  color: #020326;
+  background-color: #fff;
+}
+
+.contact-us:hover {
+  transition-duration: 0.1s;
+  color: rgb(3, 3, 37);
+  background-color: #fff;
+}
+
+.the-about-us-page{
+  background-color: #030649;
+  height: 800px;
+  width: 100%;
+}
+
+/* the about us heading */
+
+.about-us {
+  font-size: 55px;
+  color: white;
+  font-weight: 1000;
+  padding-top: 40px;
+}
+
+/* the paragraph under the about us page */
+
+.description-of-company {
+  color: white;
+  font-size: 19px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-left: 90px;
+  line-height: 35px;
+}
+
+/* hovering effect when the paragraph under the about us is being passed through*/
+.description-of-company:hover {
+  color: rgb(133, 131, 131);
+  
+  transition-duration: 0.5s;
+}
+
+.introducing-the-team {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 110px;
+  margin-left: 0px;
+  padding-top: 80px;
+}
+
+.company-introduction {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* team image that displace just beside meet our delightfull team*/
+.team-image {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* the opposite text beside the team image image*/
+.meet-our-team {
+  color: white;
+
+  font-size: 45px;
+  width: 360px;
+  line-height: 55px;
+}
+
+
+
+.the-first-and-the-second-description {
+  margin-left: 0px;
+  display: inline-block;
+}
+
+.the-first-description-of-the-team {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+.heading1-for-the-team {
+  color: white;
+  font-size: 23px;
+  display: inline-block;
+  margin-left: 120px;
+  font-family: satoshi;
+  line-height: 27px;
+}
+
+.heading2-for-the-team {
+  color: white;
+  font-size: 16px;
+  display: inline-block;
+  margin-left: 120px;
+  font-family: satoshi;
+  line-height: 30px;
+}
+
+.the-description {
+  background-color: #030649;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 750px;
+}
+
+.why-work-with-us{
+  background-color: rgb(252, 252, 252);
+  width: 100%;
+  height: 600px;
+  padding-top: 0px;
+  opacity: .9;
+  
+}
+
+.about-us2 {
+  color: #030649;
+  padding-top: 10px;
+  font-size: 52px;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+
+.why {
+  color: #030649;
+  font-size: 50px;
+  margin-top: 110px;
+  margin-left: 0px;
+}
+
+.magazin1 {
+  background-image: url(two\ people\ greeting.webp);
+  background-size: cover;
+  width: 310px;
+  height: 300px;
+  margin-top: 40px;
+  display: flex;
+  border-radius: 5px;
+}
+.magazin2 {
+  background-image: url(service6.jpg);
+  background-size: cover;
+  width: 310px;
+  height: 300px;
+  margin-top: 40px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.magazin3 {
+  background-image: url(welcomingpicture.jpg);
+  background-size: cover;
+  width: 310px;
+  height: 300px;
+  margin-top: 40px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.magazin4 {
+  background-image: url(teampeople.jpg);
+  background-size: cover;
+  width: 310px;
+  height: 300px;
+  margin-top: 40px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.the-magazin {
+  display: flex;
+  gap: 1rem;
+  margin-left: 30px;
+}
+
+.description-of-company-why {
+  margin: top 10px;
+  font-size: 20px;
+  color: black;
+  margin-left: 100px;
+  font-weight: lighter;
+}
+
+.why-work {
+  font-size: 45px;
+  color: #151a7b;
+  padding-top: 50px;
+  margin-left: 220px;
+  margin-top: 20px;
+}
+
+.heading {
+  font-size: 30px;
+  font-family: satoshi;
+  font-weight: lighter;
+  color: #020326;
+  margin-top: 40px;
+}
+
+.heading:hover {
+  color: #151a7b;
+  transition-duration: 0.2s;
+}
+
+.paragraph {
+  font-size: 18px;
+  color: black;
+  line-height: 30px;
+  font-weight: lighter;
+}
+.paragraph2 {
+  font-size: 18px;
+  color: black;
+  line-height: 30px;
+  margin-bottom: 25px;
+  font-weight: lighter;
+}
+
+.paragraph:hover {
+  color: #151a7b;
+  transition-duration: 0.2s;
+}
+
+.the-right-heading {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.the-left-heading {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.what-makes-us-diffrent {
+  display: inline-block;
+  background-color: #03074e;
+  height: 600px;
+  width: 1300px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+.the-supporting-image {
+  margin-top: 50px;
+  margin-left: 90px;
+  border-radius: 3px solid rgb(1, 1, 26);
+  border-radius: 20px;
+}
+/*
+ .trial2{
+    background-color: #067FD0;
+    height: 900px;
+    margin-left: 30px;
+    margin-right: 30px;
+ }
+ */
+
+.We-get {
+  color: #030649;
+  font-size: 48px;
+  margin-top: 70px;
+  padding-left: 90px;
+  margin-left: 30px;
+}
+.the-supporting-text-description {
+  color: #030649;
+  font-weight: lighter;
+  margin-left: 30px;
+  line-height: 30px;
+  font-size: 19px;
+  padding-top: 20px;
+  padding-left: 90px;
+}
+
+.the-supporting-text-description:hover {
+  color: #030649;
+  font-size: 19px;
+}
+
+.they-trust-us {
+  background-color: transparent;
+  height: 110px;
+  border-left: 2px solid #030649;
+  border-right: 2px solid #030649;
+  margin-top: 40px;
+  width: 1000px;
+  margin-left: 120px;
+}
+
+.they-trust-us-text {
+  color: white;
+  font-size: 20px;
+  font-family: satoshi;
+  font-weight: bold;
+  padding-top: 17px;
+  margin-left: 30px;
+}
+
+.trustee1 {
+  margin-left: 70px;
+  padding-bottom: 20px;
+}
+
+.call-for-action200{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    height: 400px;
+    margin-right: 300px;
+}
+
+.call-for-action2 {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.the-serrvices-display-wronly{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 50px;
+    height: 300px;
+
+}
+
+.view-all-services {
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  color: #030649;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.services{
+    height: 450px;
+}
+
+
+.view-all-services:hover{
+       list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: #020326;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 250px;
+}
+
+.view-our-service-container {
+  margin-left: 130px;
+  width: 250px;
+  background-color: transparent;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #030649;
+  border-radius: 5px;
+}
+
+.the-first-row100 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.the-second-row100{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.jionus {
+  font-size: 20px;
+  color: #020326;
+  margin-top: 20px;
+  font-weight: lighter;
+}
+
+.jionus1 {
+  color: #151a7b;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.jionus2 {
+  color: black;
+  background-color: transparent;
+  border: 1px solid #151a7b;
+  width: 200px;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 20px;
+  margin-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-left: 250px;
+}
+
+.jionus5 {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  width: 200px;
+  text-align: center;
+  padding-top: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 6px;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.jionus2:hover {
+  background-color: rgb(181, 177, 177);
+  font-size: 20px;
+}
+.jionus5:hover {
+  background-color: #151a7b;
+  font-size: 20px;
+}
+
+.background-for-styling {
+  background-color: #151a7b;
+  height: 0.1px;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.our-services {
+  color: #030649;
+  font-size: 51px;
+  margin-top: 140px;
+  margin-left: 120px;
+}
+
+.our-services2 {
+  color: #030649;
+  font-size: 51px;
+  margin-top: 10px;
+  margin-left: 120px;
+  font-weight: bold;
+}
+
+.service-description {
+  font-size: 25px;
+  color: #030649;
+  line-height: 29px;
+  margin-left: 130px;
+  font-weight: lighter;
+  line-height: 40px;
+}
+
+.our-service-logo {
+  background-image: url(landing\ page\ image\ of\ our\ services.webp);
+  height: 300px;
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-right: 40px;
+  border-radius: 20px;
+}
+
+.what-we-offer {
+  padding-top: 110px;
+  margin-left: 20px;
+}
+.what-we-offer2 {
+  padding-top: 100px;
+  margin-left: 20px;
+}
+
+.we-offer2 {
+  color: #020326;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: white;
+  width: 500px;
+  height: 150px;
+  padding-top: 30px;
+  padding-left: 19px;
+  padding-right: 10px;
+
+  border-radius: 20px;
+}
+
+.we-offer {
+  color: #020326;
+  font-size: 35px;
+  font-weight: bold;
+  background-color: white;
+  width: 300px;
+  height: 120px;
+  padding-top: 30px;
+  padding-left: 19px;
+  padding-right: 10px;
+  border-radius: 20px;
+
+  text-align: center;
+}
+
+.business-strategy {
+  color: #03074e;
+  font-size: 30px;
+
+  font-weight: bold;
+  margin-top: 130px;
+  margin-left: 100px;
+}
+
+.the-third-row {
+  display: inline-block;
+
+  padding-bottom: 20px;
+}
+
+.jionus {
+  font-size: 20px;
+  font-family: satoshi;
+  color: #020326;
+  margin-top: 20px;
+}
+
+.jionus1 {
+  color: #020326;
+  font-size: 30px;
+  font-family: satoshi;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.jionus4 {
+  color: white;
+  background-color: #03074e;
+  width: 290px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+.jionus4:hover {
+  background-color: white;
+  color: #020326;
+  font-size: 20px;
+  border: 2px solid #020326;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  width: 290px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  padding-left: 40px;
+}
+
+
+.the-pricing-table {
+  background-image: url(go\ digital\ with\ us\ heading.jpg);
+  height: 300px;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 90px;
+  border-radius: 20px;
+}
+
+.first-class {
+  display: inline-block;
+  background-color: white;
+  width: 300px;
+  height: 490px;
+  margin-top: 10px;
+  margin-left: 110px;
+}
+
+.second-class {
+  display: inline-block;
+  background-color: white;
+  width: 300px;
+  height: 490px;
+  margin-top: 90px;
+  margin-left: 50px;
+}
+
+.third-class {
+  display: inline-block;
+  background-color: white;
+  width: 300px;
+  height: 490px;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.Price-Table {
+  color: white;
+  font-size: 50px;
+
+  font-weight: bold;
+  padding-top: 50px;
+  margin-left: 40px;
+}
+
+footer {
+  background-color: #020326;
+  height: 500px;
+}
+.footer1 {
+  display: inline-block;
+}
+
+.footer2 {
+  display: inline-block;
+  margin-top: 40px;
+  margin-right: 50px;
+}
+
+.footer3 {
+  display: inline-block;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  margin-left: 200px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: satoshi;
+}
+
+.footer-link {
+  color: white;
+  list-style: none;
+  margin-left: 90px;
+  line-height: 40px;
+  font-weight: bold;
+  list-style: none;
+}
+.footer-link:hover {
+  transition-duration: 0.2s;
+  color: white;
+  background-color: black;
+}
+
+.company-major {
+  color: white;
+  font-size: 20px;
+  margin-left: 90px;
+  font-weight: bold;
+}
+
+.company-major2 {
+  color: white;
+  font-size: 20px;
+  margin-left: 80px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.description-of-company2 {
+  color: white;
+  margin-left: 200px;
+  font-weight: bold;
+}
+
+.call-for-action2 {
+  display: inline-block;
+  margin-top: 70px;
+
+  margin-left: 90px;
+  height: 250px;
+  padding-right: 10px;
+}
+.jionus6 {
+  color: white;
+}
+
+.jionus3 {
+  color: white;
+}
+
+.the-tages {
+  margin-top: 30px;
+  margin-left: 520px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.copyright {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+
+  margin-left: 580px;
+  margin-top: 20px;
+}
+
+.shift {
+  margin-left: 200px;
+}
+
+.our-service-logo2 {
+  background-image: url(it\ services.jpg);
+  height: 300px;
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-right: 40px;
+  border-radius: 20px;
+}
+
+.our-service-logo3 {
+  background-image: url(marketting2.jpeg);
+  height: 300px;
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-right: 40px;
+  border-radius: 20px;
+}
+.our-service-logo4 {
+  background-image: url(finace3.jpg);
+
+  height: 300px;
+  margin-top: 60px;
+  margin-left: 30px;
+  border-radius: 20px;
+  margin-right: 40px;
+}
+
+.the-pricing-table-code {
+  background-color: #151a7b;
+  height: 760px;
+  margin-left: 210px;
+  margin-right: 210px;
+  margin-top: 70px;
+}
+
+.the-first-text-description {
+  margin-top: 30px;
+  margin-left: 170px;
+}
+
+.lets-get-things-started {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+
+  padding-top: 80px;
+  margin-left: 90px;
+}
+
+.lets-get-things-started-text {
+  color: white;
+  font-size: 19px;
+  font-weight: lighter;
+  text-decoration: none;
+
+  margin-left: 80px;
+}
+
+.heading-tag-standard {
+  display: inline-block;
+  margin-left: 210px;
+  margin-top: 60px;
+  width: 280px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.heading-tag-standard2 {
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 60px;
+  width: 280px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.standard {
+  color: rgb(43, 35, 35);
+  font-size: 19px;
+  font-family: satoshi;
+  margin-left: 90px;
+}
+
+.standard2 {
+  color: rgb(80, 76, 76);
+  font-size: 19px;
+
+  margin-left: 90px;
+}
+
+.price-money {
+  color: black;
+  font-weight: bold;
+
+  font-size: 30px;
+  margin-left: 90px;
+}
+
+.price-money2 {
+  color: #151a7b;
+  font-weight: bold;
+  padding-left: 40px;
+
+  font-size: 30px;
+  margin-left: 60px;
+}
+
+.the-text-of-assurance {
+  color: black;
+  font-size: 14px;
+
+  margin-left: 25px;
+}
+
+.buy-now {
+  color: white;
+  font-size: 16px;
+
+  font-family: satoshi;
+  margin-left: 44px;
+  background-color: #151a7b;
+  width: 200px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.buy-now2 {
+  color: #151a7b;
+  font-size: 16px;
+
+  margin-left: 44px;
+  background-color: #dadae1;
+  width: 200px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.buy-now:hover {
+  background-color: rgb(7, 7, 7);
+  transition-duration: 0.3s;
+}
+
+.buy-now2:hover {
+  background-color: rgb(7, 7, 7);
+  transition-duration: 0.3s;
+}
+
+.the-color {
+  background-image: url(about-us-heading\ view.webp);
+  height: 700px;
+}
+
+.jion-us2 {
+  color: #151a7b;
+  font-size: 40px;
+
+  font-weight: 800;
+  width: 500px;
+  height: 70px;
+  background-color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.privacy-policy-text {
+  color: rgb(4, 4, 4);
+  font-size: 18px;
+
+  text-align: left;
+  line-height: 30px;
+  margin-top: 90px;
+}
+
+.customer-information {
+  color: #151a7b;
+  font-size: 24px;
+
+  text-align: center;
+  line-height: 30px;
+  margin-top: 50px;
+}
+
+.privacy-policy-text2 {
+  color: rgb(4, 4, 4);
+  font-size: 18px;
+
+  text-align: left;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.the-color3 {
+  background-color: #03074e;
+  height: 170px;
+}
+
+.the-color5 {
+  background-color: #03074e;
+  height: 170px;
+}
+
+.the-color4 {
+  background-color: #03074e;
+  height: 170px;
+}
+
+div.main {
+  width: 600px;
+  background-color: red;
+
+  margin: 20px auto 0px auto;
+}
+h2 {
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+div.register {
+  background-color: white;
+
+  width: 100%;
+  font-size: 20px;
+  margin-top: 50px;
+
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+
+
+
+
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  color: #030649;
+}
+
+form#register {
+  margin-left: 100px;
+}
+
+label {
+  font-size: 25px;
+  font-style: none;
+  margin-left: 2px;
+}
+
+
+
+input#name {
+  width: 300px;
+  border: 1px solid #020326;
+  border-radius: 3px;
+  margin-left: 10px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+input#submit {
+  width: 200px;
+  padding: 5px;
+  font-size: 17px;
+
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+  background-color: #151a7b;
+  color: white;
+  cursor: pointer;
+  border: 1px solid rgb(11, 6, 57);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
+}
+
+label,
+span,
+h2 {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.loginbutton {
+  margin-left: 100px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.mev {
+  font-size: 16px;
+
+  padding-left: 30px;
+  margin-top: 20px;
+  margin-left: 110px;
+  border-radius: 10px;
+}
+
+.mw {
+  font-size: 40px;
+  color: rgb(5, 5, 49);
+  margin-left: 170px;
+
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.fgt {
+  font-size: 16px;
+  margin-left: 110px;
+  text-decoration: none;
+  color: blue;
+}
+
+.login-placeholder {
+  background-color: #020326;
+  font-size: 16px;
+
+  font-weight: 400;
+  font-style: none;
+  text-decoration: none;
+  text-align: center;
+  height: 30px;
+  border-radius: 30px;
+  display: block;
+}
+
+.nthc {
+  font-size: 16px;
+
+  text-decoration: none;
+  text-align: center;
+}
+
+.in {
+  height: 500px;
+  width: 500px;
+  background-color: rgb(216, 216, 245);
+  margin-left: 400px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.fgt1 {
+  background-color: rgb(245, 243, 243);
+  height: 310px;
+  width: 400;
+  margin-left: 340px;
+  margin-right: 500px;
+  margin-top: 100px;
+  display: center;
+  border-radius: 20px;
+  padding-top: 23px;
+}
+
+.reset {
+  font-size: 24px;
+
+  font-weight: bold;
+  text-align: center;
+  margin-left: 110px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.nm {
+  font-size: 20px;
+
+  margin-left: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+#name2 {
+  font-size: 16px;
+  margin-left: 20px;
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#sunmit2 {
+  font-size: 20px;
+
+  font-weight: bold;
+  padding-left: 10px;
+  margin-left: 180px;
+  background-color: #151a7b;
+  color: white;
+  padding-right: 10px;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+.fgt1 {
+  background-color: #030649;
+  height: 480px;
+  width: 400;
+  margin-left: 340px;
+  margin-right: 500px;
+  margin-top: 60px;
+  display: center;
+  border-radius: 20px;
+  padding-top: 23px;
+}
+
+.reset {
+  font-size: 24px;
+
+  font-weight: bold;
+  text-align: center;
+  margin-left: 110px;
+}
+
+.nm {
+  font-size: 20px;
+
+  margin-left: 30px;
+}
+
+#name2 {
+  font-size: 16px;
+  margin-left: 20px;
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#sunmit2 {
+  font-size: 20px;
+
+  font-weight: bold;
+  padding-left: 15px;
+  margin-left: 180px;
+  background-color: #03074e;
+  color: white;
+  padding-right: 10px;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+.container {
+  background-color: white;
+}
+
+.contact-box {
+  display: flex;
+}
+
+.contact-left {
+  display: flex;
+  width: 590px;
+  height: 660px;
+  background-color: #151a7b;
+  margin-left: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.contact-right {
+  display: flex;
+  background-color: #030649;
+}
+
+h1 {
+  color: black;
+  font-size: 30px;
+
+  font-weight: lighter;
+  text-decoration: none;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+.the-elevator1 {
+  color: rgb(4, 4, 94);
+  font-size: 50px;
+  letter-spacing: 1px;
+
+  text-decoration: none;
+  margin-left: 500px;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+.the-elevator {
+  color: black;
+  font-size: 20px;
+  letter-spacing: 2px;
+
+  text-decoration: none;
+  margin-left: 400px;
+  padding-bottom: 20px;
+}
+
+.the-elavator4 {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 90px;
+  color: white;
+  font-size: 30px;
+
+  font-weight: bold;
+  text-decoration: none;
+  font-style: none;
+}
+
+.input-row {
+  display: flex;
+  gap: 2rem;
+  margin-left: 0px;
+  padding-top: 30px;
+}
+
+.input-row2 {
+  display: flex;
+  gap: 1rem;
+  margin-left: 0px;
+  padding-top: 40px;
+}
+
+.input-row3 {
+  display: inline;
+  gap: 1rem;
+  margin-left: 0px;
+  padding-top: 40px;
+}
+
+.input-group {
+  display: flex;
+  padding-top: 10px;
+  height: 60px;
+}
+
+.container {
+  margin-left: 400px;
+  margin-right: 300px;
+  margin-top: 100px;
+}
+
+.container-of-the-contact-us {
+  width: 500px;
+  margin-top: 60px;
+  border: 2px solid#d1d2d4;
+}
+.the--background-image-of-the-contact-us-page{
+    background-image: url(landing\ page\ image\ of\ business\ consulting.jpg);
+    background-position: cover;
+    height: 600px;
+    padding-top: 1px;
+}
+
+.the-subject {
+  color: white;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+input {
+  width: 190px;
+  border: none;
+  border-bottom: 1px solid rgb(10, 10, 10);
+  outline: none;
+  padding-bottom: 5px;
+}
+
+.the-subject4 {
+  color: rgb(244, 244, 246);
+  padding-top: 30px;
+}
+
+textarea {
+  padding-top: 30px;
+  width: 100%;
+}
+
+.button-new {
+  background-color: #fafbfd;
+  width: 100px;
+  height: 40px;
+  border-color: 2px solid #020326;
+  border-radius: 20px;
+  margin-top: 20px;
+  color: #020326;
+}
+
+.the-end-file {
+  color: rgb(245, 241, 241);
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 40px;
+  font-family: satoshi;
+}
+
+.almost-end {
+  display: block;
+  margin-top: 80px;
+  margin-right: 10px;
+  font-size: 40px;
+  margin-right: 10px;
+  font-family: satoshi;
+}
+
+/*
+ the first landing page image of the home page that is index.html. 
+ */
+
+.the-introduction2 {
+  background-image: url(new-service.webp);
+  background-size: cover;
+  height: 350px;
+  padding-top: 30px;
+}
+
+.the-service-introduction-header {
+  margin-top: 220px;
+  background-color: #fff;
+  width: 450px;
+  height: 90px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.the-our-service-word-in-general {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+  height: 40px;
+  margin-top: 200px;
+  
+}
+.our-service-statement {
+  font-size: 50px;
+  color: #151a7b;
+  line-height: 75px;
+  margin-top: 20px;
+}
+
+.what-we-offer-our-service-page {
+  color: #030649;
+  font-size: 45px;
+  line-height: 60px;
+}
+
+.the-our-service-description-page-paragraph {
+  color: #030649;
+  font-size: 29px;
+  line-height: 40px;
+  padding-top: 30px;
+  margin-left: 100px;
+
+  font-weight: lighter;
+}
+
+.the-first-business-consulting {
+  background-image: url(digitalmarketting.webp);
+  background-size: cover;
+  width: 370px;
+  height: 450px;
+  display: inline-block;
+  margin-left: 70px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.the-first-business-consulting2 {
+  background-image: url(payroll1.jpg);
+  background-size: cover;
+  width: 370px;
+  height: 450px;
+  display: inline-block;
+  margin-left: 70px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.the-first-business-consulting:hover {
+  background-color: #030649;
+}
+
+.the-rectangles-for-the-stylings {
+  display: inline-block;
+  margin-top: 70px;
+}
+
+.the-rectangles-for-the-stylings2 {
+  display: inline-block;
+  margin-top: 70px;
+}
+
+.the-overoll-general-div-folder {
+  display: inline-block;
+}
+
+.the-overoll-general-div-folder2 {
+  display: inline-block;
+}
+
+.the-second-digital-marketing {
+  width: 600px;
+  height: 200px;
+  background-image: url(businessconsulting.webp);
+  background-size: cover;
+  margin-left: 60px;
+  margin-top: 70px;
+  padding-right: 300px;
+  border-radius: 5px;
+}
+
+.the-second-digital-marketing2 {
+  width: 600px;
+  height: 160px;
+  background-image: url(plan3.jpeg);
+  background-size: cover;
+  margin-left: 60px;
+  margin-top: 70px;
+  padding-right: 300px;
+  border-radius: 5px;
+}
+
+.the-finance {
+  height: 250px;
+  background-image: url(financialservicess.webp);
+  margin-left: 60px;
+  background-size: cover;
+  margin-top: 50px;
+  padding-right: 600px;
+  border-radius: 5px;
+}
+
+.the-finance2 {
+  height: 250px;
+  background-image: url(Telemarketing-1.jpg);
+  margin-left: 60px;
+  background-size: cover;
+  margin-top: 50px;
+  padding-right: 600px;
+  border-radius: 5px;
+}
+
+.the-finance:hover {
+  background-color: #030649;
+}
+
+.get-it-all-under-one-roof {
+  color: #151a7b;
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+.our-service-statement2 {
+  font-size: 35px;
+  color: white;
+  line-height: 40px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.what-we-offer-our-service-page2 {
+  color: white;
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.the-our-service-one-roof-page {
+  background-color: #020326;
+  height: 2000px;
+  margin-top: 140px;
+}
+
+.what-we-offer-our-service-page3 {
+  color: rgb(190, 185, 185);
+  font-size: 75px;
+  line-height: 60px;
+}
+
+.our-service-statement3 {
+  font-size: 80px;
+  color: white;
+  line-height: 75px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+.the-list {
+  color: white;
+  font-size: 22px;
+  background-color: rgba(152, 151, 151, 0.47);
+
+  width: 200px;
+  height: 80px;
+  padding-top: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.the-list:hover {
+  background-color: #151a7b;
+  transition: 0.2s;
+}
+
+ .the-list-upper {
+  display: flex;
+  margin-left: 90px;
+  margin-top: 40px;
+  margin-right: 350px;
+} 
+
+.the-list-upper100-test{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.row-display-nested-service{
+    display: flex;
+    flex-direction: column;
+}
+
+.the-introduction3 {
+  background-image: url(privacy\ policy\ bacgroundimage.jpg);
+  background-size: cover;
+  height: 600px;
+}
+
+/* Basic styling for the form */
+label {
+  display: block;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #020326;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007bff;
+}
+
+label {
+  font-size: 16px;
+  width: 200px;
+  color: #020326;
+}
+.the-consultant-booking-form1 {
+  margin-left: 300px;
+  width: 700px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 2px solid #020326;
+  margin-top: 100px;
+
+}
+
+.THE-BOOKING-FORM-NAME {
+  color: #030649;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.the-about-us {
+  color: white;
+  font-size: 70px;
+  padding-top: 160px;
+  font-weight: bold;
+}
+
+.the-about-us-background {
+  background-image: url(about-us-heading\ view.webp);
+  height: 590px;
+  padding-top: 10px;
+}
+
+.What-we-do {
+  color: #030649;
+  font-size: 70px;
+  font-weight: 300;
+  margin-top: 50px;
+  padding-top: 30px;
+  margin-left: 130px;
+}
+
+.description-of-what-we-do {
+  font-size: 20px;
+  color: black;
+  margin-left: 130px;
+}
+
+.put-in-a-box {
+  background-color: rgb(246, 242, 242);
+  border-top: 5px solid #030649;
+  height: 400px;
+  margin-left: 100px;
+  margin-right: 620px;
+  margin-top: 120px;
+}
+
+.the-title-of-what-makes-us-diffrent {
+  margin-left: 100px;
+  font-size: 25px;
+  color: #030649;
+  margin-top: 50px;
+}
+
+.what {
+  font-size: 40px;
+  color: #030649;
+  margin-right: 700px;
+  margin-left: 100px;
+  margin-top: 60px;
+  width: 800px;
+}
+
+.after-the-title-text {
+  color: #020326;
+  font-size: 20px;
+  margin-left: 100px;
+  font-weight: lighter;
+}
+
+.supporting-image-for-the-about-us-page {
+  background-image: url(two\ people\ smiling\ .jpg);
+  margin-left: 20px;
+  margin-right: 100px;
+  height: 480px;
+  margin-top: 60px;
+}
+
+.we-trive {
+  color: white;
+  padding-top: 320px;
+  font-size: 40px;
+  margin-left: 25px;
+  font-weight: 800;
+}
+
+.the-name-of-the-team-member {
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 90px;
+  margin-right: 90px;
+  width: 200px;
+}
+
+.image-align {
+  margin-right: 2px;
+}
+
+.title {
+  font-size: 50px;
+  margin-top: 50px;
+  text-transform: capitalize;
+  color: #030649;
+
+  position: relative;
+
+  margin-left: 150px;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 2px;
+
+  bottom: -6px;
+  left: 10%;
+  transform: translateX(-50%);
+  background-image: linear-gradient(to right, transparent 5%, blue);
+}
+
+.team-row {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 90px;
+}
+
+.member {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  cursor: pionter;
+  transition: all 0.3s;
+  margin-right: 40px;
+  font-size: 16px;
+}
+
+.member:hover {
+  box-shadow: 0 10px 20px rgb(14, 3, 51);
+  transform: translateY(-20px);
+}
+
+.persona {
+  font-size: 16px;
+  color: black;
+  margin-left: 0px;
+  padding: 10px;
+}
+
+.a-little-about-our-company {
+  color: #030649;
+  font-size: 30px;
+}
+
+ol li {
+  margin-left: 100px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.the-buy-to-action-tag {
+  margin-top: 20px;
+}
+
+.lets-talk {
+  text-decoration: none;
+  color: #020326;
+  font-size: 20px;
+  margin-left: 70px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #ccc;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.the-mission-vission-and-gaol-container {
+  height: 400px;
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  transform:  rotate(360deg);
+  padding-left: 90px;
+}
+
+.the-mission {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 360px;
+  height: 280px;
+  border: 2px solid #03074e;
+  border-radius: 10px;
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+
+  
+}
+
+.the-icon-class {
+  margin-top: 30px;
+  margin-left: 10px;
+  transform: rotate(360deg);
+}
+
+.the-header-file-title1 {
+  color: #03074e;
+  font-size: 40px;
+  margin-top: 40px;
+  
+  padding-right: 30px;
+}
+
+.the-header-file-title {
+  color: black;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 2px;
+}
+
+.the-text-below-the-header-title {
+  color: black;
+  font: 17px;
+}
+
+.the-backgrounnd-image-of-the-form{
+    background-image: url(landing\ page\ image\ of\ business\ consulting.jpg);
+    height: 600px;
+    width: 100%;
+    background-position: cover;
+    padding-top: 70px;
+}
+
+.the-form-id-container{
+    width: 500px;
+    border: 1px solid #020326;
+    border-radius: 5px;
+
+}
+
+
+
+.form-attribute{
+    background-color: #dbdbdd;
+    color: #020326;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.attribute-feild-name-one-identifier{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and ( max-width: 1200px) {
+
+      .menu_bar {
+        background-color: #020326;
+        height: 200px;
+
+        width: 100px;
+      }
+
+      .menu_bar ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        gap: .1rem;
+        flex-direction: column;
+        margin-left: 0px;
+      }
+      
+      .menu_bar ul li {
+        position: relative;
+      }
+
+      .dropdown_menu{
+        display: none;
+      }
+      .the-introduction {
+        background-image: url(landing\ page\ image\ of\ business\ consulting.jpg);
+      
+        height: 600px;
+        width: 600px;
+      }
+      .the-welcome-text-landing-page {
+        padding-left: 90px;
+        font-size: 30px;
+        color: white;
+        line-height: 50px;
+        padding-top: 10px;
+        
+        
+      }
+      .the-captivating-word {
+        color: white;
+        font-size: 20px;
+        font-weight: 800;
+        text-decoration: none;
+        padding-top: 90px;
+        margin-left: 0px;
+        
+      }
+
+      
+      .about-us2 {
+       display: none;
+      }
+      .why {
+        color: #030649;
+        font-size: 10px;
+        margin-top: 10px;
+        margin-left: 0px;
+      }
+      .description-of-company-why {
+        margin: top 10px;
+        font-size: 10px;
+        color: #030649;
+        margin-left: 60px;
+        font-weight: lighter;
+      }
+
+      .call-for-action200{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        height: 600px;
+        margin-right: 300px;
+    }
+      
+      
+
+
+      
+
+    }
+
+@media screen  and (max-width: 514px){
+  .the-introduction {
+    background-image: url(landing\ page\ image\ of\ business\ consulting.jpg);
+    background-size: cover;
+    height: 600px;
+    padding-top: 100px;
+    padding-left: 40px;
+    width: 1000px;
+  }
+
+  .why-work-with-us{
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    height: 1000px;
+    padding-top: 0px;
+    opacity: .9;
+    
+  }
+  
+
+  .menu_bar {
+    background-color: #020326;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    height: 200px;
+    margin: auto;
+    width: 1000px;
+  }
+
+  .about-us2 {
+  color: #030649;
+  padding-top: 10px;
+  font-size: 150px;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+.why {
+  color: #030649;
+  font-size: 120px;
+  margin-top: 110px;
+  margin-left: 0px;
+}
+
+.description-of-company-why {
+  margin: top 10px;
+  font-size: 70px;
+  color: #030649;
+  margin-left: 100px;
+  font-weight: lighter;
+}
+
+.the-magazin {
+  display: flex;
+  gap: 2rem;
+  margin-left: 30px;
+  width: 900PX;
+}
+
+.magazin1 {
+  background-image: url(two\ people\ greeting.webp);
+  background-size: cover;
+  width: 9010px;
+  height: 300px;
+  margin-top: 40px;
+  display: flex;
+  border-radius: 5px;
+}
+.magazin2 {
+  background-image: url(service6.jpg);
+  background-size: cover;
+  width: 9010px;
+  height: 300px;
+  margin-top: 40px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.magazin3 {
+  background-image: url(welcomingpicture.jpg);
+  background-size: cover;
+  width: 9010px;
+  height: 300px;
+  margin-top: 40px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.magazin4 {
+  background-image: url(teampeople.jpg);
+  background-size: cover;
+  width: 9010px;
+  height: 300px;
+  margin-top: 40px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.the-about-us-page{
+  background-color: #030649;
+  height: 1150px;
+  width: 1000px;
+}
+.the-mission-vission-and-gaol-container {
+  height: 700px;
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  transform:  rotate(360deg);
+  padding-left: 10px;
+  margin-left: 0px;
+
+}
+
+.the-mission {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 360px;
+  height: 280px;
+  border: 2px solid #03074e;
+  border-radius: 10px;
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+
+  
+
+}
+ .the-description {
+        background-color: #020326;
+        margin-left: 20px;
+        
+        height: 800px;
+      }
+
+.introducing-the-team {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 110px;
+  margin-left: 0px;
+  padding-top: 80px;
+}
+
+.team-image {
+  display: none;
+  
+}
+
+.the-supporting-image {
+  margin-top: 50px;
+  border-radius: 3px solid rgb(1, 1, 26);
+  border-radius: 20px;
+  width: 900px;
+}
+
+.member {
+ 
+  padding-top: 20px;
+  padding-bottom: 10px;
+  cursor: pionter;
+  transition: all 0.3s;
+  font-size: 16px;
+  margin-right: 290px;
+ 
+}
+
+.the-pricing-table-code {
+        background-color: #151a7b;
+        height: 900px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 70px;
+        width: 980px;
+      }
+
+      .the-about-us-background {
+  background-image: url(about-us-heading\ view.webp);
+  height: 590px;
+  padding-top: 10px;
+  width: 1000px;
+}
+
+.put-in-a-box {
+  background-color: rgb(246, 242, 242);
+  border-top: 5px solid #030649;
+  height: 400px;
+  margin-left: 100px;
+  margin-right: 620px;
+  margin-top: 120px;
+  width: 650px;
+}
+
+.description-of-what-we-do {
+  font-size: 26px;
+  color: #030649;
+  margin-left: 100px;
+}
+
+.what {
+  font-size: 70px;
+  color: #030649;
+  margin-right: 700px;
+  margin-left: 100px;
+  margin-top: 60px;
+  width: 800px;
+}
+
+.the-title-of-what-makes-us-diffrent {
+  margin-left: 100px;
+  font-size: 65px;
+  color: #030649;
+  margin-top: 50px;
+}
+
+.after-the-title-text {
+  color: #020326;
+  font-size: 40px;
+  width: 600px;
+  margin-left: 100px;
+  font-weight: lighter;
+}
+
+.supporting-image-for-the-about-us-page {
+  background-image: url(two\ people\ smiling\ .jpg);
+  margin-left: 20px;
+  margin-right: 100px;
+  height: 480px;
+  margin-top: 60px;
+  width: 950px;
+}
+
+.title {
+  font-size: 90px;
+  margin-top: 50px;
+  text-transform: capitalize;
+  color: #030649;
+
+  position: relative;
+  width: 600px;
+
+  margin-left: 150px;
+}
+
+.team-row {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 200px;
+}
+
+.member {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  cursor: pionter;
+  transition: all 0.3s;
+  margin-right: 40px;
+  font-size: 16px;
+}
+
+.they-trust-us {
+  display: none;
+}
+
+.after-the-title-text {
+  color: #020326;
+  font-size: 90px;
+  width: 700px;
+  margin-left: 100px;
+  font-weight: lighter;
+}
+
+.the-title-of-what-makes-us-diffrent {
+  margin-left: 100px;
+  font-size: 35px;
+  color: #030649;
+  margin-top: 50px;
+}
+
+.after-the-title-text {
+  color: #020326;
+  font-size: 90px;
+  margin-left: 100px;
+  font-weight: lighter;
+}
+
+.the-title-of-what-makes-us-diffrent {
+  margin-left: 100px;
+  font-size: 90px;
+  color: #030649;
+  margin-top: 50px;
+}
+
+.after-the-title-text {
+  color: #020326;
+  font-size: 70px;
+  width: 600px;
+  margin-left: 100px;
+  font-weight: lighter;
+}
+
+ol li {
+  width: 700px;
+  font-size: 50px;
+  line-height: 50px;
+  
+}
+
+footer {
+  background-color: #020326;
+  height: 900px;
+  width: 1000px;
+}
+
+.the-introduction2 {
+  background-image: url(new-service.webp);
+  background-size: cover;
+  height: 350px;
+  padding-top: 30px;
+  width: 1000px;
+}
+
+.the-our-service-word-in-general {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+  height: 40px;
+  margin-top: 180px;
+  
+}
+
+.our-service-statement {
+  font-size: 70px;
+  color: #151a7b;
+  line-height: 75px;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.the-our-service-description-page-paragraph {
+  color: hsl(237, 92%, 15%);
+  font-size: 41px;
+  line-height: 40px;
+  padding-top: 30px;
+  margin-left: 100px;
+  width: 700px;
+  font-weight: lighter;
+}
+  
+.the-our-service-one-roof-page {
+  background-color: #020326;
+  height: 2000px;
+  width: 1000px;
+  margin-top: 140px;
+}
+
+.main{
+  background-color: rgb(250, 246, 246);
+  
+  width: 350px;
+  height: 10rem;
+  margin-top: 70px;
+}
+
+  
+}
