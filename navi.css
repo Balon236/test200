@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+body{
+    min-height: 100vh;
+    background-color: pink;
+    block-size: cover;
+}
+
+header.logo{
+    font-weight: bold;
+font-size: 25px;
+color: black;
+}
+
+header .navbar ul{
+    list-style: none;
+
+}
+
+header .navbar ul li{
+    position: relative;
+    float: left;
+    margin-left: 100px;
+}
+
+
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 10px;
+    color: gray;
+    display: block;
+}
+
+header .navbar ul li a:hover{
+    color: white;
+    background-color: black;
+}
+
+header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 250px;
+    background-color: white;
+    display: none;
+
+}
+header .navbar ul li ul li{
+    width: 100%;
+    
+}
+
+header .navbar ul li ul li ul{
+    left: 100px;
+    top: 0;
+}
+
+header  .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul{
+    display: initial;
+
+}
+
+
+

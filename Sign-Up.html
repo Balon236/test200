@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="menu_bar">
+
+      <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="about-us.html">ABOUT <i class="fas fa-caret-down"></i></a>
+            <div class="dropdown_menu">
+               <ul>
+                  <li><a href="about-us.html">COMPANY</a></li>
+                  <li><a href="about-us.html">OUR TEAM</a></li>
+                  <li><a href="about-us.html">PARTNERS</a></li>
+                  <li><a href="about-us.html">PRIVACY</a></li>
+               </ul>
+
+            </div>
+
+         </li>
+         <li><a href="services.html">SERVICES <i class="fas fa-caret-down"></i></a>
+
+            <div class="dropdown_menu">
+               <ul>
+                  <li><a href="services.html">CONSULTING <i class="fas fa-caret-right"></i> </a>
+
+                     <div class="dropdown_menu-1">
+                        <ul>
+                           <li><a href="services.html">BUSINESS PLAN</a></li>
+                           <li><a href="services.html">BUSINESS AUDITING</a></li>
+                           <li><a href="services.html">LEGAL MANAGEMENT</a></li>
+                           <li><a href="services.html">BUSINESS DEVELOPMENT</a></li>
+                           <li><a href="services.html">TRAINING</a></li>
+                        </ul>
+                     </div>
+                  </li>
+
+
+                  <li><a href="services.html">IT SERVICES</a>
+                     <div class="dropdown_menu-1">
+                        <ul>
+                           <li><a href="services.html">PAYROLL SYSYTEM</a></li>
+                           <li><a href="services.html">NETWORKING</a></li>
+                           <li><a href="services.html"> WEB/APP DESIGN</a></li>
+                           <li><a href="services.html">TELE MARKETING</a></li>
+                           <li><a href="services.html">WEB/APP DEVELOPMENT</a></li>
+                           <li><a href="services.html">TRAINING</a></li>
+                        </ul>
+                     </div>
+
+
+                  </li>
+
+
+                  <li><a href="services.html">DIGITAL MARKETING</a>
+                     <div class="dropdown_menu-1">
+                        <ul>
+                           <li><a href="services.html">SEO / SEM</a></li>
+                           <li><a href="services.html">CONTENT CREATION</a></li>
+                           <li><a href="services.html"> DATA ANALYSIS</a></li>
+                           <li><a href="services.html">GRAPHIC CHATTER</a></li>
+                           <li><a href="services.html">BRANDING</a></li>
+                           <li><a href="services.html">TRAINING</a></li>
+                        </ul>
+                     </div>
+
+                  </li>
+                  <li><a href="services.html">FINANCE</a>
+                     <div class="dropdown_menu-1">
+                        <ul>
+                           <li><a href="services.html">AUDITING & CONTROL</a></li>
+                           <li><a href="services.html">PAYROLL SYSYTEM</a></li>
+                           <li><a href="services.html"> BOOK KEEPING</a></li>
+                           <li><a href="services.html">COUNCELLING</a></li>
+                           <li><a href="services.html">TRAINING</a></li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li><a href="services.html">TRAININGS</a></li>
+               </ul>
+            </div>
+         </li>
+         <li><a href="bookanappiontment.html">BOOK APPIONTMENT</a></li>
+         <li><a href="payment.html">CONTACT US</a></li>
+         <li><a href="Sign-Up.html">SIGN-UP</a></li>
+      </ul>
+
+   </div>
+   
+      
+       
+        
+    
+    
+    
+
+
+
+    <div class="main">
+        <div class="register">
+
+       
+     <h2>Register Here</h2>
+     <form id="myForm" >
+        <label> First Name  : </label>
+        <br>
+        <input type="text" name="fame" id="name" placeholder="Enter your name" name="from_first_name">
+        <br><br>
+        <label> Last Name : </label>
+        <br>
+        <input type="text" name="fname" id="name" placeholder="Enter your last name" name="from_last_name">
+        <br><br>
+        <label>Your Age :</label>
+        <br>
+        <input type="number" name="age" id="name" placeholder="How old are you" name="your_age">
+        <br><br>
+        <label>Date of Birth :</label>
+        <br>
+        <input type="number" name="age" id="name" placeholder="Date of Birth" name="date_of_birth">
+        <br><br>
+        <label>Year of birth :</label>
+        <br>
+        <input type="number" name="age" id="name" placeholder="Year of Birth" name="year_of_birth">
+        <br><br>
+        <label>Country :</label>
+        <br>
+        <input type="number" name="age" id="name" placeholder="Country" name="from_country">
+        <br><br>
+        <label>Home Town :</label>
+        <br>
+        <input type="number" name="age" id="name" placeholder="Home town" name="home_town">
+        <br><br>
+    
+        <select id="service" v-model="selectedService" required name="the_service">
+            <option value="">status</option>
+            <option value="Employed">Employed</option>
+          <option value="Not-Employed">Not-Employed</option>
+
+        
+        <br><br>
+
+
+    
+
+        
+         <!-- <label>prefered Language</label>
+         <br><br>  -->
+      <!-- &nbsp;&nbsp;  &nbsp;&nbsp;  -->
+        <!-- <input type="checkbox" name="lang" id="hindi">
+        <span id="hindi">French</span>  -->
+
+        <!-- &nbsp; -->
+        <!-- <span id="hindi">French</span> -->
+
+<!-- &nbsp;&nbsp;  &nbsp;&nbsp; -->
+<!-- <input type="checkbox" name="lang" id="eng"> -->
+<!-- &nbsp; -->
+<!-- <span id="eng">English</span> -->
+<!-- &nbsp;&nbsp;  &nbsp;&nbsp; -->
+
+<!-- <input type="checkbox" name="lang" id="urdu"> -->
+<!-- &nbsp; -->
+<!-- <span id="urdu">Pidgin</span> --> 
+
+<input type="submit" value="Submit" name="submit" id="submit">
+
+<!-- <p >Already have an accont? <a href="login.html">Login</a></p><br> -->
+
+
+
+
+
+
+     </form>
+    </div>
+</div>  
+
+
+
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+   <div class="footer1">
+      <img class="shift" src="logo.png" width="70px" height="70px">
+      <p>Company</p>
+      <p class="description-of-company2">
+         We pride ourself on providing top
+         top-notch consulting services <br>to individuals and businesses
+         archieve their gaols. Weather you are <br>seeking guidance in
+         Business strategy, Marketting or any other Area,<br> we have a team
+         of experincced Consultant ready to help you
+      </p>
+
+   </div>
+   <div class="footer2">
+      <p class="company-major">About</p><br>
+      <a class="footer-link" href="index.html">Home</a>
+      <br>
+      <a class="footer-link" href="about-us.html">About</a><br>
+      <a class="footer-link" href="about-us.html">Works</a><br>
+      <a class="footer-link" href="about-us.html">Statistics</a><br>
+      <a class="footer-link" href="about-us.html">Services</a><br>
+
+
+   </div>
+   <div class="footer2">
+      <p class="company-major2">Services</p><br>
+    
+
+      <a class="footer-link" href="services.html">Buisiness Consultingg</a><br>
+
+      <a class="footer-link" href="services.html">Finance</a><br>
+      <a class="footer-link" href="services.html">Branding & Marketinng</a><br>
+      <a class="footer-link" href="services.html">IT Services</a><br>
+      <a class="footer-link" href="privacy-policy.html">Privacy Policy</a><br>
+
+   </div>
+
+
+
+   <!-- <div class="call-for-action2">
+      <div class="the-first-row">
+         <p class="jionus6">Lets talk</p><br>
+         <p class="jionus3">Lorem ipsum dolor sit amet, consectetur <br>
+            elit. Excepturi, quos.</p><br><br>
+         <p class="jionus2"> Join Us</p>
+
+
+      </div>
+
+      <div class="the-second-row">
+         <p class="jionus6">Connect</p><br>
+         <p class="jionus3">Lorem ipsum dolor sit amet, consectetur <br>
+            elit. Excepturi, quos.</p><br><br>
+         <p class="jionus2"> Contact-Us</p>
+
+
+      </div>
+
+
+
+   </div> -->
+
+   <div class="the-tages">
+      <img src="logo.png" width="40px" height="40px">
+      <img class="color-white" src="facebook2.png" width="30px" height="30px">
+      <img src="twitter2.png" width="30px" height="30px">
+      <img src="instagram2.png" width="30px" height="30px">
+      <img src="linkein2.png" width="30px" height="30px">
+
+   </div>
+   <div class="copyright">Copyright 2023 <br>contact@gmail.com</div>
+</footer>
+
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+    const form = document.getElementById("myForm")
+
+    form.addEventListener("submit", (event) => {
+        event.preventDefault()
+
+        sendMessage()
+    })
+    function sendMessage() {
+        emailjs.init("QYRmFUOidG5H09WoJ");
+        emailjs.sendForm('service_0o1c8iw', '', '#myForm')
+            .then(function (response) {
+                console.log('SUCCESS!', response.status, response.text);
+            }, function (error) {
+                console.log('FAILED...', error);
+            });
+    }
+
+
+</script>
+</body>
+</html>
